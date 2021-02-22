@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  
+ var divHeight = 10; 
+  $("#btn2").click(function(){
+   divHeight = divHeight +10;
+  $("#div2").animate({
+
+  left: divHeight +'px',
+    opacity:'0.5',
+    height:(divHeight/2) +'px',
+    width:(divHeight/2) +'px'
+    });
+    });
+  
+});
+  
+</script> 
+</head>
+<body>
+<div id="div3" style="height:10px"></div>
+<button id="btn1">Start Animation DIV1</button>
+  <button id="btn2">Start Animation DIV2</button>
+<div id="div1" style="background:#98bf21;height:100px;width:100px;position:absolute;">DIV1</div>
+  <div id="div2" style="background:red;height:50px;width:50px;position:absolute;">DIV2</div>
+</body>
+</html>
