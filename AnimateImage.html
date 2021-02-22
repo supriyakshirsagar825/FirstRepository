@@ -3,20 +3,32 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script> 
 $(document).ready(function(){
-  $("button").click(function(){
-    $("div").animate({
+  
+  $("#btn1").click(function(){
+    $("div1").animate({
       left: '250px',
       opacity: '0.5',
       height: '150px',
       width: '150px'
     });
   });
+  $("#btn2").click(function(){
+  $("#div2").animate({
+  left:'300px',
+    opacity:'0.5',
+    height:'200px',
+    width:'200px'
+    });
+    });
+  
 });
+  
 </script> 
 </head>
 <body>
-<button>Start Animation</button>
-<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
-
+<button id="btn1">Start Animation DIV1</button>
+  <button id="btn2">Start Animation DIV2</button>
+<div id="div1" style="background:#98bf21;height:100px;width:100px;position:absolute;">DIV1</div>
+  <div id="div2" style="background:pink;height:50px;width:50px;position:absolute;">DIV2</div>
 </body>
 </html>
