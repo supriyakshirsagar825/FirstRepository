@@ -4,14 +4,15 @@
 <script> 
 $(document).ready(function(){
   
-  $("#btn1").click(function(){
+  $("#btn1").click(function(int x=10){
     $("#div1").animate({
-      left: '250px',
+      left: 'x+250px',
       opacity: '0.5',
       height: '150px',
       width: '150px'
     });
   });
+  
   $("#btn2").click(function(){
   $("#div2").animate({
   left:'300px',
