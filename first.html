@@ -7,13 +7,13 @@
 function fizzbuzz(){
   for(let i = 1; i <= 100; i++){
     if(i % 3 === 0 && i % 5 === 0){
-     $("#id1").text("FizzBuzz");
+     $("#id1").html('FizzBuzz');
     }else if (i % 3 === 0){
-       $("#id1").text("Fizz");
+       $("#id1").html('Fizz');
     }else if (i % 5 === 0){
-       $("#id1").text("Buzz");
+       $("#id1").html('Buzz');
     }else{
-       $("#id1").text(i);
+       $("#id1").html(i);
     }
   }
 }
