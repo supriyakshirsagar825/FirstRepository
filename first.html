@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>test</h1>
+<div id="id1"> </div>
+<p><button onclick="fizzbuzz()>click</button></p>
+<script>
+function fizzbuzz(){
+  for(let i = 1; i <= 100; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+     $("#id1").text("FizzBuzz");
+    }else if (i % 3 === 0){
+       $("#id1").text("Fizz");
+    }else if (i % 5 === 0){
+       $("#id1").text("Buzz");
+    }else{
+       $("#id1").text(i);
+    }
+  }
+}
+</script>
+</body>
+</html>
