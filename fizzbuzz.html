@@ -1,23 +1,25 @@
 <html>
-<head>
-<script>
-
+<body>
+  <h1>test</h1>
+  <div id="id1"> </div>
+  <div>
+  <button onclick="fizzbuzz()>click</button>
+   </div>
+  <script>
 function fizzbuzz(){
   for(let i = 1; i <= 100; i++){
     if(i % 3 === 0 && i % 5 === 0){
-      console.log("FizzBuzz");
+     $("#id1").text("FizzBuzz");
     }else if (i % 3 === 0){
-      console.log("Fizz");
+       $("#id1").text("Fizz");
     }else if (i % 5 === 0){
-      console.log("Buzz");
+       $("#id1").text("Buzz");
     }else{
-      console.log(i);
+       $("#id1").text(i);
     }
   }
 }
 </script>
-</head>
-<body>
-  <button onclick="fizzbuzz()>click</button>
 </body>
+                  
 </html>
