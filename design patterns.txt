@@ -1,0 +1,12 @@
+1 creational desing pattern
+This type deals with object creation and initilazation of object 
+singleton,factory,abstract factory
+
+2 structureal design pattern
+this type deal with composition 
+decouple interfaces and implimantation of classes
+adpter,bridge
+
+3 behavioural  design pattern
+communication between classes and object 
+chain of responsibility ,command,interpreter
