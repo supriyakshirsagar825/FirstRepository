@@ -1,2 +1,4 @@
 Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs.
 Instead of worrying about deploying and maintaining servers, the cloud infrastructure provides all the up-to-date resources needed to keep your applications running.
+
+Azure Functions is perfect for tasks like image processing, processing orders, file maintenance and to run scheduled tasks. With the fully managed compute platform, Azure Functions provides high-level reliability and security for your apps
