@@ -1,1 +1,1 @@
-First region - availablebity zone 
+First region - availablebity zone : choose this in disaster recovery
